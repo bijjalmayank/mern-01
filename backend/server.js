@@ -13,7 +13,7 @@ app.use(express.json());
 
 // ✅ Setup CORS properly
 const allowedOrigins = [
-    process.env.FRONTEND_URL || "https://your-frontend.vercel.app",
+    process.env.FRONTEND_URL || "https://productstore-five.vercel.app",
     "http://localhost:5173", // for local development
 ];
 
